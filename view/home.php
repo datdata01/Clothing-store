@@ -65,7 +65,7 @@
             <h2><strong>Gợi Ý Sản Phẩm Theo Giai Đoạn</strong></h2>
         </div>
         <div class="goiy">
-            <img src="image/goiy1.jpg" width="100px" height="200px" alt="">
+            <img src="./image/goiy.png" width="100px" height="200px" alt="">
 
         </div>
     </div>
@@ -75,12 +75,12 @@
         </div>
         <div class="postall" style="display: flex;">
             <div class="baipost_1" style="margin-right: 200px; margin-left: 35px;">
-                <img src="./image/baipost_new.png" alt="" width="500px" height="400px">
+                <img src="./image/baipost_1.jpg" alt="" width="500px" height="400px">
                 <p><a href="">Bùng nổ cảm xúc cùng sự kiện Festival <br> Mẫu váy và váy của KidsPlaza diễn ra tại Hà Nội</a></p>
 
             </div>
             <div class="baipost_2">
-                <img src="./image/baipost_new1.jpg" alt="" width="500px" height="400px">
+                <img src="./image/baipost_2.jpg" alt="" width="500px" height="400px">
                 <p>
                     <a href="">Tại hội thảo, các chuyên gia trong lĩnh vực tiền<br>sản đã tổ chức các buổi hội thảo</a>
                 </p>

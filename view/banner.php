@@ -7,11 +7,11 @@
         <img src="image/sl1.jpg" alt="" width="770px" height="400pc" id="anh">
     </div>
     <div class="banner_right">
-        <img src="image/banner_right.jpg" width="250px" height="400px" alt="">
+        <img src="image/LANDING-PAGE_OPT1.jpg" width="250px" height="400px" alt="">
     </div>
 </div>
 <script>
-    var anh = ['image/sl1.jpg', 'image/sl2.jpg','image/sl3.jpg', 'image/sl4.jpg'];
+    var anh = ['image/sl1.jpg', 'image/sl2.jpg','image/sl3.png', 'image/sl4.jpg'];
     var i = 0;
 
     function onshow() {
@@ -25,7 +25,7 @@
 
         ) {
             onshow();
-        }, 1000)
+        }, 4000)
     }
     play();
 

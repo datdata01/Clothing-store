@@ -2,9 +2,9 @@
 <?php if (isset($_SESSION['giohang'])) : ?>
     <form method="post" action="?act=updategiohang">
         <div class="container mt-4">
-            <?php print_r($_SESSION['giohang']);?>
-            <?php $i = 0; ?>
-            <?php foreach (($_SESSION['giohang']) as $value) : ?>
+            <!-- <?php print_r($_SESSION['giohang']);?> -->
+         
+            <?php foreach (($_SESSION['giohang']) as $key => $value) : ?>
                 <div class="row mb-3 border p-2">
                     <div class="col-md-3">
                         <img class="img-fluid" src="./upload/<?php echo isset($value['img']) ? $value['img'] : ''; ?>" alt="Product Image">
@@ -16,13 +16,13 @@
                         <h5><?php echo isset($value['soluong']) ? "giá:" . $value['price']*$value['soluong'].".VNĐ" : '0.VND'; ?></h5>
                     </div>
                     <div class="col-md-2">
-                        <input type="number" class="form-control" name="soluong[<?php echo $i?>]" value="<?php echo isset($value['soluong']) ? $value['soluong'] : ''; ?>" >
+                        <input type="number" class="form-control" name="soluong[<?php echo $key?>]" value="<?php echo isset($value['soluong']) ? $value['soluong'] : ''; ?>" >
                     </div>
                     <div class="col-md-2">
-                        <a href="?act=delhd&idhd=<?php echo $i; ?>" class="btn btn-danger">Xóa</a>
+                        <a href="?act=delhd&idhd=<?php echo $key; ?>" class="btn btn-danger">Xóa</a>
                     </div>
                 </div>
-                <?php $i++; endforeach; ?>
+                <?php  endforeach; ?>
 
                 <div class="row mt-3">
                     <div class="col-md-8"></div>

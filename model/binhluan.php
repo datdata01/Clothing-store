@@ -11,8 +11,8 @@
         return $listbl;
     }
     function delete_binhluan($id)
-{
-    $sql = "delete from binhluan where id=" . $id;
-    pdo_execute($sql);
-}
+    {
+        $sql = "delete from binhluan where id=" . $id;
+        pdo_execute($sql);
+    }
 ?> 
